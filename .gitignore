@@ -1,0 +1,22 @@
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Environnements
+.env
+newsletter-api/.env
+newsletter-front/.env
+
+# Bases SQLite
+newsletter-api/*.db
+
+# Fichiers lourds / design
+*.ai
+*.psd
+
+# Logs / OS / IDE
+*.log
+.DS_Store
+.vscode/
+EOF
