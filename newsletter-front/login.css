@@ -146,6 +146,13 @@ font-weight:300;
 
 
 
+.feedback { margin-top: 12px; font-size: 14px; }
+.feedback.info { opacity: .9; }
+.feedback.success { color: #109a39; }
+.feedback.warn { color: #b58900; }
+.feedback.error { color: #c62828; }
+
+
 /*********************************** FOOTER ************************************/
 .willing-form .form-footer {
   display: flex;

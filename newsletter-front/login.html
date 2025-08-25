@@ -14,7 +14,7 @@
 
     <!-- Image en responsive mobile -->
     <div class="mobile-hero">
-      <img src="images/formes_ligne.png" alt="Visuel événement">
+      <img src="/images/formes_ligne.png" alt="Visuel événement">
     </div>
 
 
@@ -64,9 +64,16 @@
             Vos données ne seront ni revendues ni partagées.
           </p>
       
-          <button type="submit" class="cta">Je m’inscris</button>
+          <button type="submit" id="submitBtn" class="cta">Je m’inscris</button>
         </div>
       </form>
+      
+      <!-- zone de messages -->
+      <div id="form-feedback" role="status" aria-live="polite"></div>
+      
+      <!-- laisse comme ceci, type="module" convient très bien -->
+      <script type="module" src="/login.js"></script>
+      
       
 
 
@@ -79,13 +86,13 @@
           <p>
             Suivez-nous sur 
             <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
-              <img src="images/linkedin.png" alt="LinkedIn" class="logo-linkedin">
+              <img src="/images/linkedin.png" alt="LinkedIn" class="logo-linkedin">
             </a>
           </p>
         </div>
       
         <div class="footer-right">
-          <img src="images/willing.png" alt="Logo Willing" class="logo-footer">
+          <img src="/images/willing.png" alt="Logo Willing" class="logo-footer">
         </div>
       </footer>
       
@@ -95,10 +102,10 @@
     <!-- Colonne droite : image -->
     <aside class="right">
       <!-- Pour Vite, place l'image dans /public/img/ et garde ce chemin : -->
-      <img src="images/formes_rectangle.png" alt="Visuel de l’événement Willing" />
+      <img src="/images/formes_rectangle.png" alt="Visuel de l’événement Willing" />
     </aside>
   </main>
 
-  <script type="module" src="/login.js"></script>
+  
 </body>
 </html>

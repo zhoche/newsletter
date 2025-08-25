@@ -14,8 +14,8 @@
 
       <!----------------- HEADER ----------------->
       <header class="intro">
-        <img class="logo" src="images/willing.png" alt="willing">
-        <img class="hero" src="images/formes_carre.png" alt="Illustration géométrique">
+        <img class="logo" src="/images/willing.png" alt="willing">
+        <img class="hero" src="/images/formes_carre.png" alt="Illustration géométrique">
       
         <h1 class="title">Save the date</h1>
         <p class="date">Jeudi 6 février 2025 <span class="time">à partir de 17h00</span></p>      
@@ -64,7 +64,7 @@
             </h2>
       
             <figure class="talk-figure">
-              <img src="images/photo.jpg" alt="Visuel éditorial lié à la table ronde">
+              <img src="/images/photo.jpg" alt="Visuel éditorial lié à la table ronde">
             </figure>
           </div>
       
@@ -95,28 +95,27 @@
               </p>
             </div>
       
-            <img class="talk-ornament" src="images/formes_ligne.png" alt="">
+            <img class="talk-ornament" src="/images/formes_ligne.png" alt="">
           </div>
         </div>
       </section>
       
 
      <!----------------- FOOTER ----------------->
-      <footer class="newsletter-footer" role="contentinfo">
-        <div class="footer-wrap">
-          <p class="footer-text">
-            Vous ne souhaitez plus recevoir nos messages ?
-            <a class="footer-link" href="#unsubscribe">Cliquez ici</a>
-            pour vous désabonner.
-          </p>
-        </div>
-      
-        <!-- barre jaune pleine largeur -->
-        <div class="footer-accent" aria-hidden="true"></div>
-      </footer>
-
-
+     <footer class="newsletter-footer" role="contentinfo">
+      <div class="footer-wrap">
+        <p class="footer-text">
+          Vous ne souhaitez plus recevoir nos messages ?
+          <a id="unsubLink" class="footer-link" href="#">Cliquez ici</a>
+          pour vous désabonner.
+        </p>
+      </div>
+      <div class="footer-accent" aria-hidden="true"></div>
+    </footer>
 
   </main>
+
+  <div id="nl-banner" class="nl-banner hidden" role="status" aria-live="polite"></div>
+<script type="module" src="/newsletter.js"></script>
 </body>
 </html>
